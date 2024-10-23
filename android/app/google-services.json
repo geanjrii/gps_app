@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34171611660",
+    "project_id": "gps-app-bd1e2",
+    "storage_bucket": "gps-app-bd1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34171611660:android:98c6e701ca82ef04df5c29",
+        "android_client_info": {
+          "package_name": "com.example.gps_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXXRaWlW8hEN2HGtVYcQoRcERdfd2OqjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
