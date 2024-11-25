@@ -1,6 +1,8 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:gps_app/mapa/mapa_controller.dart';
+import 'package:gps_app/feature_layer/mapa/mapa_controller.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class Mapa extends StatefulWidget {
@@ -28,6 +30,15 @@ class _MapaState extends State<Mapa> {
 
     _mapaController.addListener(_listener);
     _mapaController.getLatLng(widget.latitude, widget.longitude);
+  }
+
+  @override
+  void didUpdateWidget(Mapa oldWidget) {
+    log('didUpdateWidget');
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.latitude != widget.latitude || oldWidget.longitude != widget.longitude) {
+      _mapaController.getLatLng(widget.latitude, widget.longitude);
+    }
   }
 
   @override

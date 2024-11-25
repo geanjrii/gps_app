@@ -1,16 +1,3 @@
 # gps_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto apresenta um aplicativo flutter desenvolvido para a disciplina de Sistemas Embarcados na Universidade Federal da Paraı́ba, visando modelar um sistema de fácil portabilidade e baixo custo para um sistema de rastreamento. O projeto integra um microcontrolador ESP32 com o módulo de GPS NEO-6MV2 para fazer a captura de dados de localização em tempo real. Estes dados então são transmitidos para uma aplicação de dispositivo móvel através de uma rede WI-FI, permitindo o usuário monitorar a posição do dispositivo por meio de uma interface de mapa iterativo.

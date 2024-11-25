@@ -42,6 +42,7 @@ class MapaController extends ChangeNotifier {
 
     marcadores.add(marcador);
     posicaoCamera = CameraPosition(target: latLng, zoom: 18);
+    shouldMoveCamera = true; // Adiciona esta linha para garantir que a câmera se mova
     await movimentarCamera();
 
     notifyListeners();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gps_app/home_page/home_controller.dart';
-import 'package:gps_app/mapa/mapa_view.dart';
+import 'package:gps_app/feature_layer/home_page/home_controller.dart';
+import 'package:gps_app/feature_layer/mapa/mapa_view.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
